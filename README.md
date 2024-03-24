@@ -1,3 +1,28 @@
+## Go Ethereum enhanced to implement schnorr signature verification as an precompiled contract
+
+For Testing
+1. Clone the repo
+
+2. Building `geth` requires both a Go (version 1.21 or later) and a C compiler. You can install
+them using your favourite package manager. Once the dependencies are installed, run
+
+   ```shell
+   make geth
+   ```
+
+3. Run the geth instance locally in the dev mode
+   ```shell
+   ./build/bin/geth --dev --http --http.api eth,web3,net --http.corsdomain "https://remix.ethereum.org"
+   ```
+
+4. To check the usage from solidity smart contract, refer to the sample smart contract https://github.com/mailgourav/go-ethereum/blob/main/tests/solidity/contracts/Storage.sol. It can be tested by running it from remix IDE
+
+5. To run the go-ethereum test case for the schnorr signature verification implementation run 
+   ```shell
+   go test   -v -run TestPrecompiledSchnorrEcrecover
+   ```
+
+
 ## Go Ethereum
 
 Golang execution layer implementation of the Ethereum protocol.
