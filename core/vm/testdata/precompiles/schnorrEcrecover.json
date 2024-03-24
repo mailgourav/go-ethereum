@@ -1,0 +1,23 @@
+[
+    {
+      "Input": "f58f2da28925b0ea25a73954d1ae864b69dff359df87c9161c3423ffa49f57df71684040493cc46d4813d95c62a86150b0404207fc14843daebfc95e2882c19708894dbf61458de0012d3be16bba8e2c18a39fb564de6e0723eee91b9edeebb103913f5428da29ccd3e91456ac3c1d1061358f6297fd2611e9edfbc6430960621c",
+      "Expected": "0000000000000000000000000000000000000000000000000000000000000001",
+      "Gas": 3000,
+      "Name": "VerificationSuccess",
+      "NoBenchmark": false
+    },
+    {
+        "Input": "f58f2da28925b0ea25a73954d1ae864b69dff359df87c9161c3423ffa49f57df81684040493cc46d4813d95c62a86150b0404207fc14843daebfc95e2882c19708894dbf61458de0012d3be16bba8e2c18a39fb564de6e0723eee91b9edeebb103913f5428da29ccd3e91456ac3c1d1061358f6297fd2611e9edfbc6430960621c",
+        "Expected": "",
+        "Gas": 3000,
+        "Name": "SignatureIncorrect",
+        "NoBenchmark": false
+      },
+      {
+        "Input": "f58f2da28925b0ea25a73954d1ae864b69dff359df87c9161c3423ffa49f57df71684040493cc46d4813d95c62a86150b0404207fc14843daebfc95e2882c19708894dbf61458de0012d3be16bba8e2c18a39fb564de6e0723eee91b9edeebb103913f5428da29ccd3e91456ac3c1d1061358f6297fd2611e9edfbc6430960621d",
+        "Expected": "",
+        "Gas": 3000,
+        "Name": "PublicKeyIncorrect",
+        "NoBenchmark": false
+      }
+  ]
