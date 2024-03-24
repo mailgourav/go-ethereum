@@ -1,4 +1,4 @@
-## Go Ethereum enhanced to implement schnorr signature verification as an precompiled contract
+## Go Ethereum enhancement implementing schnorr signature verification as an precompiled contract
 
 For Testing
 1. Clone the repo
