@@ -15,7 +15,7 @@ them using your favourite package manager. Once the dependencies are installed, 
    ./build/bin/geth --dev --http --http.api eth,web3,net --http.corsdomain "https://remix.ethereum.org"
    ```
 
-4. To check the usage from solidity smart contract, refer to the sample smart contract https://github.com/mailgourav/go-ethereum/blob/main/tests/solidity/contracts/Storage.sol. It can be tested by running it from remix IDE
+4. To check the usage of schnorr signature verification from solidity smart contract, refer to the sample smart contract https://github.com/mailgourav/go-ethereum/blob/main/tests/solidity/contracts/Storage.sol. It can be tested by running it from remix IDE
 
 5. To run the go-ethereum test case for the schnorr signature verification implementation run 
    ```shell
